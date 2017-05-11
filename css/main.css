@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Questrial', sans-serif;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+header{
+  background-color: #ECF0F1;
+  background-size:cover;
+  background-position: right;
+  height: 90vh;
+}
+
+.header-video {
+  background-color: lightgrey;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/*section {
+  text-align: center;
+  padding:
+}*/
+
+section {
+  height: 90vh;
+}
+
+.service-explain {
+  background-color: #ECF0F1;
+  text-align: center;
+}
+
+.team-section {
+  background-color: #ECF0F1;
+  text-align: center;
+}
+
+.team-members {
+  hover: opacity;
+}
+
+#team-member-1-image {
+  background-image: url('../images/teammember1.png');
+  height: 280px;
+  background-size: cover;
+}
+
+#team-member-2-image {
+  background-image: url('../images/teammember2.png');
+  height: 280px;
+  background-size: cover;
+}
+
+#team-member-3-image {
+  background-image: url('../images/teammember3.png');
+  height: 280px;
+  background-size: cover;
+}
+
+#team-member-4-image {
+  background-image: url('../images/teammember3.png');
+  height: 280px;
+  background-size: cover;
+}
+
+#team-member-5-image {
+  background-image: url('../images/teammember3.png');
+  height: 280px;
+  background-size: cover;
+}
+
+#team-member-6-image {
+  background-image: url('../images/teammember3.png');
+  height: 280px;
+  background-size: cover;
+}
+
+#team-member-7-image {
+  background-image: url('../images/teammember3.png');
+  height: 280px;
+  background-size: cover;
+}
+
+#team-member-8-image {
+  background-image: url('../images/teammember3.png');
+  height: 280px;
+  background-size: cover;
+}
+.contact {
+  box-sizing: border-box;
+  background-color: lightgrey;
+  color: white;
+  padding: 10vh 10%;
+  text-align: center;
+}
