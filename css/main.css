@@ -1,23 +1,43 @@
 * {
   margin: 0;
+  margin-bottom: -1px;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Questrial', sans-serif;
 }
 
+[class*=col-]{
+  padding: 0;
+}
+
+
+/*helper classes*/
+
+.flex-center {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+
+iframe{
+  border: none;
+}
+
 nav a{
   text-decoration: none;
+  color: purple;
+  padding: 1em;
+}
+
+.header-background {
+  padding: 2em;
 }
 
 header{
-  background-color: #ECF0F1;
+  /*background-color: #ECF0F1;*/
   background-size:cover;
   background-position: right;
-  height: 90vh;
-}
-
-.header-video {
-  background-color: lightgrey;
 }
 
 img {
@@ -30,75 +50,138 @@ img {
   padding:
 }*/
 
+h2, h3 {
+  padding: 1em;
+}
+
 section {
-  height: 90vh;
-}
-
-.service-explain {
-  background-color: #ECF0F1;
+  /*background-color: rgba(0, 0, 0, 0.1);*/
   text-align: center;
 }
 
+#vimeoplayer1 {
+  width: 100%;
+  height: 27vw;
+}
+
+#vimeoplayer2 {
+  width: 100%;
+  height: 29vw;
+}
+
+.media-box {
+  padding: 10vh 5%;
+  margin: 2%;
+  background-color: white;
+
+}
+
+.section-box {
+  background-image: url('../images/oliverheaderresize.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 6%;
+}
+
+.service-explain, .team-section, .client-section {
+  text-align: center;
+  background-color: white;
+  padding: 5em;
+}
+
+/*PROJECTS SECTION*/
+
+.projects-paragraph {
+  margin: 5%;
+}
+
+
+/*TEAM SECTION*/
+
+#team {
+  margin-top: -1px;
+}
+
+.teammates div{
+  background-size: cover;
+  height: 300px;
+  background-position: center;
+}
 .team-section {
-  background-color: #ECF0F1;
+  /*background-color: #ECF0F1;*/
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team-names {
+  background-color: rgba(255, 255, 255, 0.3);
   text-align: center;
+  padding: 5em 0;
+  opacity: 0;
+  transition: 2s;
 }
 
-.team-members {
-  hover: opacity;
+.team-member:hover .team-names{
+  opacity: 1;
 }
 
-#team-member-1-image {
+.team-names:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.team-member-1-image {
   background-image: url('../images/teammember1.png');
-  height: 280px;
-  background-size: cover;
 }
 
-#team-member-2-image {
+.team-member-2-image {
   background-image: url('../images/teammember2.png');
-  height: 280px;
-  background-size: cover;
 }
 
-#team-member-3-image {
+.team-member-3-image {
   background-image: url('../images/teammember3.png');
-  height: 280px;
-  background-size: cover;
 }
 
-#team-member-4-image {
-  background-image: url('../images/teammember3.png');
-  height: 280px;
-  background-size: cover;
+.team-member-4-image {
+  background-image: url('../images/teammember4.png');
 }
 
-#team-member-5-image {
-  background-image: url('../images/teammember3.png');
-  height: 280px;
-  background-size: cover;
+.team-member-5-image {
+  background-image: url('../images/teammember5.png');
 }
 
-#team-member-6-image {
-  background-image: url('../images/teammember3.png');
-  height: 280px;
-  background-size: cover;
+.team-member-6-image {
+  background-image: url('../images/teammember6.png');
 }
 
-#team-member-7-image {
-  background-image: url('../images/teammember3.png');
-  height: 280px;
-  background-size: cover;
+.team-member-7-image {
+  background-image: url('../images/teammember7.png');
 }
 
-#team-member-8-image {
-  background-image: url('../images/teammember3.png');
-  height: 280px;
-  background-size: cover;
+.team-member-8-image {
+  background-image: url('../images/teammember8.png');
 }
-.contact {
-  box-sizing: border-box;
-  background-color: lightgrey;
+
+.client-cards {
+  background-image: url('../images/clientsection.jpg');
+  padding: 2em;
+}
+
+.client-paragraph {
   color: white;
-  padding: 10vh 10%;
+  padding: 2em;
   text-align: center;
+  font-size: 20pt;
+}
+
+
+
+#contact {
+  height: 35vh;
+}
+.contact-form {
+  font-size: 20pt;
 }

@@ -1,161 +1,219 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Questrial" rel="stylesheet">
+  <link <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Questrial" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.3.1/gridlex.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-  <nav>
+  <nav class="grid-spaceAround">
     <a href="#services">We Can</a>
     <a href="#projects">We Do</a>
     <a href="#team">Team</a>
-    <a href="#contact">Get in Touch</a>
+    <a href="#testimonial">Get in Touch</a>
   </nav>
   <header class="top-video grid">
-      <!-- need links to services, projects, team, testimonials, contact -->
-      <!-- logo would be an image in the header -->
+    <!-- logo would be an image in the header -->
+    <!-- <div>
+    <h1>UP MEDIA TEAM</h1>
+    <p>collaborate & create</p>
+  </div> -->
+  <div class="header-background col-3">
+    <h1>UP MEDIA TEAM</h1>
+    <h2>collaborate & create</h2>
+  </div>
+  <div class="header-video col-9">
+    <div class="sqs-video-background content-fill" sqs-controller="VideoBackground" data-config-url="https://vimeo.com/200738710" data-config-playback-speed="1" data-config-filter="1" data-config-filter-strength="" id="yui_3_17_2_1_1494490743146_262">
+      <div id="player"></div>
+      <iframe id="vimeoplayer" class="background-video ready" src="https://player.vimeo.com/video/200738710?api=1&amp;background=1"
+      style="width: 100%; height: 42.6vw;">
+    </iframe>
+  </div>
+</div>
+<!-- get in touch button -->
+<!-- social icons -->
+</header>
+<!-- this is the first section -->
+<section id="services" class="grid">
+  <div class="section-box col-9 grid-spaceBetween">
+    <div class="photography col-6 media-box">
+      <h3>Photography</h3>
+      <p>Photography is more than a medium for factual communication of ideas. It is a creative art...You don't make a photograph just with a camera. You bring to the act of photography all the pictures you have seen, the books you have read, the music you have heard, the people you have loved.You don't take a photograph, you make it. - Ansel Adams</p>
+    </div>
+    <div class="videography col-6 media-box">
+      <h3>Videography</h3>
+      <p>You have to really be courageous about your instincts and your ideas. Otherwise you'll just knuckle under, and things that might have been memorable will be lost. - Francis Ford Coppola</p>
+    </div>
+  </div><!-- close section-box -->
+  <div class="service-explain col-3">
+    <h2>Services</h2>
+    <p class="services-paragraph"> Up Media Team specializes in the craft of storytelling through the visual medium. The superior form of cinematic video production delivers an engaging experience and the luxury of conveying your view in a powerful way. Everyone has a story to tell, we just help you shape it.</p>
+  </div>
+</section>
 
-      <!-- <div> -->
-      <!-- <h1>UP MEDIA TEAM</h1> -->
-      <!-- <p>collaborate & create</p> -->
-      <!--</div> -->
-    <div class="header-background col-4"> <!-- background color -->
+
+
+<!-- this is the second section -->
+<section id="projects" class="grid">
+  <div class="featured-project1 col-6">
+    <div>
+      <p class="projects-paragraph">The screen is a magic medium. It has such power that it can retain interest as it conveys emotions and moods that no other art form can hope to tackle.”-Stanley Kubrick</p>
+      <p>View Projects</p>
+      <p><button type="button">We Specialize in Real Estate</button></p>
     </div>
-    <div class="header-video col-3"> <!-- video -->
-    </div>
-    <!-- get in touch button -->
-    <!-- social icons -->
-  </header>
-  <!-- this is the first section -->
-  <section id="services" class="grid">
-    <div class="section-box col-9 grid-spaceBetween">
-      <div class="photography col-6 media-box">
-        <h3>Photography</h3>
-        <p> <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. </p></p>
-      </div>
-      <div class="videography col-6 media-box">
-        <h3>Videography</h3>
-        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum</p>
-      </div>
-    </div><!-- close section-box -->
-    <div class="service-explain col-3">
-      <h2>Services</h2>
-      <p> Up Media Team specializes in the craft of storytelling through the visual medium. The superior form of cinematic video production delivers an engaging experience and the luxury of conveying your view in a powerful way. Everyone has a story to tell, we just help you shape it.</p>
-    </div>
-  </section>
-  <!-- this is the second section -->
-  <section id="projects">
-    <h2>Projects</h2>
-    <div class="projects-videos grid col-9">
-      <div class="featured-project col-6 video-box">
-        <h3>Featured video 1</h3>
-        <!-- insert video -->
-      </div>
-      <div class="featured-project col-6 video-box">
-        <h3>Featured video 2</h3>
-        <!-- insert video -->
-      </div>
-      <div class="featured-project col-6 video-box">
-        <h3>Featured video 3</h3>
-        <!-- insert video -->
-      </div>
-      <div class="featured-project col-6 video-box">
-        <h3>Featured video 4</h3>
-        <!-- insert video -->
+  </div>
+  <div class="featured-project2 col-6">
+    <iframe id="vimeoplayer1" class="background-video ready" src="https://player.vimeo.com/video/178105495?api=1&amp;background=1" width="640" height="338" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+  <div class="featured-project3 col-6">
+    <iframe id="vimeoplayer2" class="background-video ready" src="https://player.vimeo.com/video/198426198?api=1&amp;background=1" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+  </div>
+  <div class="featured-project4 col-6">
+    <p class="projects-paragraph">The screen is a magic medium. It has such power that it can retain interest as it conveys emotions and moods that no other art form can hope to tackle.”-Stanley Kubrick</p>
+    <p>View Projects</p>
+    <p><button type="button">And Love Working On Different Projects</button></p>
+  </div>
+  <!-- view all projects button an anchor tag -->
+</section>
+<!-- this is the third section -->
+<section id="team" class="grid">
+  <div class="team-section col-3">
+    <h2>Team</h2>
+    <p class="team-paragraph"> The best way to pursue happiness is to help other people. Nothing else will make you happier...Working hard is very important. You're not going to get anywhere without working extremely hard. - George Lucas
+    </p>
+  </div>
+  <!-- separate section in grid -->
+  <div class="teammates col-9 grid-noGutter">
+    <div class="team-member-1-image team-member col-3">
+      <div class="team-names">
+        <h3>Blake</h3>
+        <p>
+          Likes: Beer & Burritos
+        </p>
+        <P>
+          Dislikes: Leafy Greens
+        </P>
       </div>
     </div>
-    <!-- view all projects button an anchor tag -->
-  </section>
-  <!-- this is the third section -->
-  <section id="team" class="grid">
-    <div class="team-section col-3">
-      <h2>Team</h2>
-      <p>sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
-      </p>
+    <div class="team-member-2-image team-member col-3">
+      <div class="team-names">
+        <h3>Todd</h3>
+        <p>
+          Likes: The Ladies
+        </p>
+        <P>
+          Dislikes: Shampoo
+        </P>
+      </div>
     </div>
-    <div class="teammates col-9 grid-spaceBetween">
-      <div class="team-members col-3 team-box">
-        <div id="team-member-1-image">
-        </div>
-        <h3>person 1</h3>
+    <div class="team-member-3-image team-member col-3">
+      <div class="team-names">
+        <h3>Andrew</h3>
+        <p>
+          Likes: Being Barefoot
+        </p>
+        <P>
+          Dislikes: Cleanliness
+        </P>
       </div>
-      <div class="team-members col-3 team-box">
-        <div id="team-member-2-image">
-        </div>
-        <h3>person 2</h3>
+    </div>
+    <div class="team-member-4-image team-member col-3">
+      <div class="team-names">
+        <h3>Javier</h3>
+        <p>
+          Likes: Beer & Burritos
+        </p>
+        <P>
+          Dislikes: Tequila
+        </P>
       </div>
-      <div class="team-members col-3 team-box">
-        <div id="team-member-3-image">
-        </div>
-        <h3>person 3</h3>
+    </div>
+    <div class="team-member-5-image team-member col-3">
+      <div class="team-names">
+        <h3>Lina</h3>
+        <p>
+          Likes: Hugs
+        </p>
+        <P>
+          Dislikes: Raw Celery
+        </P>
       </div>
-      <div class="team-members col-3 team-box">
-        <div id="team-member-4-image">
-        </div>
-        <h3>person 4</h3>
+    </div>
+    <div class="team-member-6-image team-member col-3">
+      <div class="team-names">
+        <h3>Neil</h3>
+        <p>
+          Likes: Jello
+        </p>
+        <P>
+          Dislikes: Socks
+        </P>
       </div>
-      <div class="team-members col-3 team-box">
-        <div id="team-member-5-image">
-        </div>
-        <h3>person 5</h3>
+    </div>
+    <div class="team-member-7-image team-member col-3">
+      <div class="team-names">
+        <h3>Mikey</h3>
+        <p>
+          Likes: Math
+        </p>
+        <P>
+          Dislikes: Negativity
+        </P>
       </div>
-      <div class="team-members col-3 team-box">
-        <div id="team-member-6-image">
-        </div>
-        <h3>person 6</h3>
+    </div>
+    <div class="team-member-8-image team-member col-3">
+      <div class="team-names">
+        <h3>Dumbo</h3>
+        <p>
+          Likes: Baths, Bananas & Mud
+        </p>
+        <P>
+          Dislikes: Mice
+        </P>
       </div>
-      <div class="team-members col-3 team-box">
-        <div id="team-member-7-image">
-        </div>
-        <h3>person 7</h3>
-      </div>
-      <div class="team-members col-3 team-box">
-        <div id="team-member-8-image">
-        </div>
-        <h3>person 8</h3>
     </div>
   </section>
   <!-- this is the fourth section -->
   <section id="testimonial" class="grid">
-    <div class="client-cards col-9">
-      <div class="client=box">
-        <h3>client testimonial 1</h3>
+    <div class="client-cards col-9 slider center">
+      <div class="client-box">
+        <p class="client-paragraph">They might smell funny but they're very professional and lovely to work with.
+        </p>
+        <h3>client 1</h3>
       </div>
-      <div class="client=box">
-        <h3>client testimonial 2</h3>
+      <div class="client-box">
+        <p class="client-paragraph">When I grow up I want to be just like the UP Media Team.</p>
+        <h3>client 2</h3>
       </div>
-      <div class="client=box">
-        <h3>client testimonial 3</h3>
+      <div class="client-box">
+        <p class="client-paragraph">Don't know what I would have done without the UP Media team.
+        </p>
+        <h3>client 3</h3>
       </div>
-      <div class="client=box">
-        <h3>client testimonial 4</h3>
-      </div>
-      <div class="client=box">
-        <h3>client testimonial 5</h3>
+      <div class="client-box">
+        <p class="client-paragraph">They put the butt in butter and sex in sexy.
+        </p>
+        <h3>client 4</h3>
       </div>
     </div>
     <div class="client-section col-3">
-      <h2>Client Testimonials</h2>
-      <p>Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus
-      </p>
-    </div>
-  </section>
-  <!-- this is the last section -->
-  <section id="contact">
-    <div class="contact">
       <h2>Work With Us</h2>
-      <!-- this is a place for the form -->
-      <label>Your Name</label>
-      <input>name</input>
-      <label>Your Email</label>
-      <input>email</input>
-      <label>Your Message</label>
-      <input>message</input>
-      <!-- text area -->
+      <div class="contact-form">
+        <label>Name</label>
+        <input type="text" placeholder="name" />
+        <label>Email</label>
+        <input type="text" placeholder="email" />
+        <label>Message</label>
+        <textarea style="margin: 0px 0px -1px; height: 126px; width: 140px;">Message</textarea>
+      </div>
     </div>
   </section>
   <footer>
   </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  <script src="JS/main.js"></script>
+  <!-- is this correct? -->
 </body>
 <html>
