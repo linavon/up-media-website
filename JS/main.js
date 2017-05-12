@@ -1,6 +1,6 @@
 $(document).ready(function(){
 
-$(document).on('click', 'a', function(event){
+$(document).on('click', 'nav a', function(event){
   // Stop the browser from automatically jumping to the target
   event.preventDefault();
 

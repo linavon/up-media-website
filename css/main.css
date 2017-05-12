@@ -40,6 +40,11 @@ header{
   background-position: right;
 }
 
+.header-background {
+  font-size: 15pt;
+  margin-top: 5em;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -83,16 +88,19 @@ section {
   padding: 6%;
 }
 
-.service-explain, .team-section, .client-section {
-  text-align: center;
+.service-explain, .team-section {
+  text-align: left;
   background-color: white;
   padding: 5em;
+  font-size: 15pt;
 }
 
 /*PROJECTS SECTION*/
 
 .projects-paragraph {
   margin: 5%;
+  padding: 10%;
+  font-size: 15pt;
 }
 
 
@@ -109,6 +117,10 @@ section {
 }
 .team-section {
   /*background-color: #ECF0F1;*/
+}
+
+.team-paragraph {
+  text-align: left;
 }
 
 .team-member {
@@ -170,11 +182,16 @@ section {
   padding: 2em;
 }
 
+.client-section {
+  font-size: 15pt;
+  padding: 2em;
+}
+
 .client-paragraph {
   color: white;
   padding: 2em;
   text-align: center;
-  font-size: 20pt;
+  font-size: 18pt;
 }
 
 
@@ -183,5 +200,6 @@ section {
   height: 35vh;
 }
 .contact-form {
-  font-size: 20pt;
+  font-size: 15pt;
+  padding: 1em;
 }
