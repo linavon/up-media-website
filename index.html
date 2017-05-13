@@ -2,8 +2,9 @@
 <html>
 <head>
   <link <link href="https://fonts.googleapis.com/css?family=Libre+Franklin|Questrial" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.3.1/gridlex.min.css">
-  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/gridlex/2.3.1/gridlex.min.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.css" />
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css" />
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
@@ -19,7 +20,7 @@
     <h1>UP MEDIA TEAM</h1>
     <p>collaborate & create</p>
   </div> -->
-  <div class="header-background col-3">
+  <div class="header-background col-3_sm">
     <h1>UP MEDIA TEAM</h1>
     <h2>collaborate | create</h2>
   </div>
@@ -178,7 +179,8 @@
   </section>
   <!-- this is the fourth section -->
   <section id="testimonial" class="grid">
-    <div class="client-cards col-9 slider center">
+    <div class="client-cards col-6 slider">
+      <div class="center">
       <div class="client-box">
         <p class="client-paragraph">They might smell funny but they're very professional and lovely to work with.
         </p>
@@ -199,7 +201,8 @@
         <h3>client 4</h3>
       </div>
     </div>
-    <div class="client-section col-3">
+    </div>
+    <div class="client-section col-6">
       <h2>Work With Us</h2>
       <div class="contact-form">
         <p><label>Name</label></p>
@@ -207,14 +210,15 @@
         <p><label>Email</label></p>
         <input type="text" placeholder="email" />
         <p><label>Message</label></p>
-        <textarea style="margin: 0px 0px -1px; height: 126px; width: 140px;">Message</textarea>
+        <textarea></textarea>
+        <input id="submit" name="submit" type="submit" value="Submit">
       </div>
     </div>
   </section>
   <footer>
   </footer>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
   <script src="JS/main.js"></script>
   <!-- is this correct? -->
 </body>
